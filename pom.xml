@@ -3,7 +3,6 @@
     
     <modelVersion>4.0.0</modelVersion>
     
-    <!-- parent stays at 1.392 to retain compability -->
     <parent>
         <groupId>org.eclipse.hudson.plugins</groupId>
         <artifactId>hudson-plugin-parent</artifactId>
@@ -11,7 +10,7 @@
     </parent>
 
     <!-- identification -->
-    <groupId>org.jvnet.hudson.plugins</groupId>
+    <groupId>org.hudsonci.plugins</groupId>
     <artifactId>prereq-buildstep</artifactId>
     <version>1.2-SNAPSHOT</version>
     <packaging>hpi</packaging>
@@ -29,7 +28,6 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-
 
     <!-- code -->
     <scm>
