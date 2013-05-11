@@ -1,0 +1,4 @@
+<div>
+  This plugin will check the status of other jobs before continuing<br />
+  The other jobs must exist, have been built, not building and the last build must be stable.
+</div>

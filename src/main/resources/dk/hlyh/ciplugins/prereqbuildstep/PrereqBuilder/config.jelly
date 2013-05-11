@@ -1,0 +1,12 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+
+    <f:entry title="${%Projects}" help="${rootURL}/../plugin/prereq-buildstep/help-projects.html">
+        <f:textbox name="prereqBuilder.projects" value="${instance.projects}" />
+    </f:entry>
+    <f:entry title="${%Warning only mode}" help="${rootURL}/../plugin/prereq-buildstep/help-warning.html">
+        <f:checkbox name="prereqBuilder.warningOnly" checked="${instance.warningOnly}" />
+    </f:entry>
+    <f:entry title="${%Ignore unstable builds}" help="${rootURL}/../plugin/prereq-buildstep/help-ignore-unstable.html">
+        <f:checkbox name="prereqBuilder.ignoreUnstableBuilds" checked="${instance.ignoreUnstableBuilds}" />
+    </f:entry>
+</j:jelly>
