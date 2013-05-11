@@ -32,11 +32,11 @@
 
 
     <!-- code -->
-    <!-- <scm>
-        <connection>scm:hg:http://bitbucket.org/henriklynggaard/prereq-buildstep-plugin</connection>
-        <developerConnection>scm:hg:https://bitbucket.org/henriklynggaard/prereq-buildstep-plugin</developerConnection>
-        <url>http://bitbucket.org/henriklynggaard/prereq-buildstep-plugin</url>
-    </scm> -->
+    <scm>
+        <connection>scm:git:git://github.com/henriklynggaard/prereq-buildstep-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:henriklynggaard/prereq-buildstep-plugin.git</developerConnection>
+        <url>https://github.com/henriklynggaard/prereq-buildstep-plugin</url>
+    </scm>    
 
     <!-- Team -->
     <developers>
